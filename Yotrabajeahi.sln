@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yota", "Yota\Yota.csproj", "{D2D70296-9FC2-44E6-BCAB-BEEB02714A45}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "YotaDb", "YotaDb\YotaDb.sqlproj", "{E7E07BE3-6A63-48A3-93F8-D06ECC337A3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,12 @@ Global
 		{D2D70296-9FC2-44E6-BCAB-BEEB02714A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2D70296-9FC2-44E6-BCAB-BEEB02714A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2D70296-9FC2-44E6-BCAB-BEEB02714A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E07BE3-6A63-48A3-93F8-D06ECC337A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E07BE3-6A63-48A3-93F8-D06ECC337A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E07BE3-6A63-48A3-93F8-D06ECC337A3E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E7E07BE3-6A63-48A3-93F8-D06ECC337A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E07BE3-6A63-48A3-93F8-D06ECC337A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E07BE3-6A63-48A3-93F8-D06ECC337A3E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
