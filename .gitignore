@@ -38,9 +38,5 @@ Upgrade*
 #Ignore nuget packages' files
 *.origpackages/
 
-
-#Ignore publish files
-*.Publish.xml
-
 # Ignore sqlcmdvars file with each user's development settings
 Database.PerUser.sqlcmdvars
