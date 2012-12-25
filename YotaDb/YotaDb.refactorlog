@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="f79e2dea-492b-412d-aff4-180094c15dcd" ChangeDateTime="12/19/2012 04:02:15">
+    <Property Name="ElementName" Value="[dbo].[Comments].[Re]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Comments]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ResponseID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fa88b69c-ec01-40de-8e09-e091134f366c" ChangeDateTime="12/19/2012 04:03:58">
+    <Property Name="ElementName" Value="[dbo].[SurveryCategory]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[CategorySurvey ]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="da39bb92-739d-4093-88ed-4dd39ff4e589" ChangeDateTime="12/19/2012 04:12:13">
+    <Property Name="ElementName" Value="[dbo].[FK_Comments_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Comments]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Comments_ToCompanies]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b47cca21-a2f9-4420-aadb-45004daf7865" ChangeDateTime="12/19/2012 04:12:22">
+    <Property Name="ElementName" Value="[dbo].[FK_Comments_ToTable_1]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Comments]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Comments_ToUsers]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5313f3bc-dd7d-4ca4-bc3c-df8d645e0e42" ChangeDateTime="12/19/2012 04:12:36">
+    <Property Name="ElementName" Value="[dbo].[FK_Comments_ToTable_2]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Comments]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Comments_ToComments]" />
+  </Operation>
+</Operations>
