@@ -10,5 +10,6 @@ namespace Services.Interfaces
     public interface ICompanyRepository
     {
         void AddComment(Comment comment);
+        IEnumerable<Comment> GetComments(int id);
     }
 }

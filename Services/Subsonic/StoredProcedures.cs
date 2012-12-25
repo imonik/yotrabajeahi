@@ -21,6 +21,11 @@ namespace Yota.DataAccess{
 			sp.Command.AddParameter("Name",Name,DbType.AnsiString,ParameterDirection.Input);
 			return sp;
 		}
+		public StoredProcedure GetComments(int? companyID){
+			StoredProcedure sp=new StoredProcedure("GetComments",this.Provider);
+			sp.Command.AddParameter("companyID",companyID,DbType.Int32,ParameterDirection.Input);
+			return sp;
+		}
 	}
 }
  
