@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yota", "Yota\Yota.csproj", 
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "YotaDb", "YotaDb\YotaDb.sqlproj", "{E7E07BE3-6A63-48A3-93F8-D06ECC337A3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{10E16707-298F-44FF-9832-858F0EE80D00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E7E07BE3-6A63-48A3-93F8-D06ECC337A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7E07BE3-6A63-48A3-93F8-D06ECC337A3E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7E07BE3-6A63-48A3-93F8-D06ECC337A3E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{10E16707-298F-44FF-9832-858F0EE80D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E16707-298F-44FF-9832-858F0EE80D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E16707-298F-44FF-9832-858F0EE80D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E16707-298F-44FF-9832-858F0EE80D00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
