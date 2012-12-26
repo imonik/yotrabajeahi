@@ -1,0 +1,27 @@
+﻿@model MvcApplication1.Models.CommentViewModel
+
+@{
+    ViewBag.Title = "Add comment";
+}
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>New Comment</legend>
+
+        <div class="clearfix">
+            @Html.LabelFor(model => model.Comment)
+            <div class="input">
+                @Html.EditorFor(model => model.Comment)
+                @Html.ValidationMessageFor(model => model.Comment)
+            </div>
+        </div>
+
+        <div class="actions">
+            <input type="button" id="btnCancel"  class="btn" value="Cancel" />
+            <input type="submit" class="btn primary" value="Add Comment" />
+        </div>
+    </fieldset>
+}
+

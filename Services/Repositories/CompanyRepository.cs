@@ -13,7 +13,7 @@ namespace Services.Repositories
     {
         public void AddComment(Comment comment)
         {
-            _db.AddComment(comment.Content); //TODO: complete this method to include the rest of the information necessary to add a comment.
+            _db.AddComment(comment.Content).Execute(); //TODO: complete this method to include the rest of the information necessary to add a comment.
         }
 
         public IEnumerable<Comment> GetComments(int id)
