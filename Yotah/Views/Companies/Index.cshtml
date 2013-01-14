@@ -1,0 +1,10 @@
+﻿@model IEnumerable<MvcApplication1.Models.CompanyViewModel>
+
+@{
+    ViewBag.Title = "Companies";
+}
+
+@foreach (var company in Model)
+{
+    <div>@company.Name</div>
+}
