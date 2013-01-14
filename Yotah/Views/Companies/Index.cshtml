@@ -6,5 +6,30 @@
 
 @foreach (var company in Model)
 {
-    <div>@company.Name</div>
+ <div class="company-info row">
+    <div class="stats span3">
+        <div class="row">
+            <div class="score span1">
+                <div class="mini-counts">@company.GeneralScore</div>
+                <div>General</div>
+            </div>
+            <div class="comments span1" title="Comentarios sobre esta compania">
+                <div class="mini-counts">@company.CommentsCount</div>
+                <div>Comentarios</div>
+            </div>
+            <div class="views span1">
+                <div class="mini-counts">@company.ViewsCount</div>
+                <div>Views</div>
+            </div>
+        </div>
+    </div>
+    <div class="summary span5">
+        <h3>@company.Name</h3>
+    </div>
+    <div class="modify-info span2">
+        <span title="@company.ModifiedOn" class="relativetime">@company.ModifiedOn.ToString("dd MMMM")</span>
+        <a href="~/Users/49/">@company.ModifiedBy</a>
+    </div>
+</div>
 }
+
