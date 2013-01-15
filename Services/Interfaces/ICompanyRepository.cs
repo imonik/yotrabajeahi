@@ -11,5 +11,6 @@ namespace Services.Interfaces
     {
         void AddComment(Comment comment);
         IEnumerable<Comment> GetComments(int id);
+        IEnumerable<Company> GetCompanies();
     }
 }

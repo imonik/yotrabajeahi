@@ -22,6 +22,16 @@ namespace Services.Repositories
             return result.Select(c => new Comment { ID = c.ID, Content = c.Comment, CreatedOn = c.CreatedOn });
         }
 
+        public IEnumerable<Company> GetCompanies() {
+            var result = new List<Company>();
+            result.Add(new Company { ID = 1, Name = "Epicor Software Co. Ltd.", CreatedOn = DateTime.Now, ModifiedOn = DateTime.Now, CreatedBy = "monik", ModifiedBy = "monik" });
+            result.Add(new Company { ID = 2, Name = "Inflection Pont Systems", CreatedOn = DateTime.Now, ModifiedOn = DateTime.Now, CreatedBy = "monik", ModifiedBy = "monik" });
+            result.Add(new Company { ID = 3, Name = "Sieena software", CreatedOn = DateTime.Now, ModifiedOn = DateTime.Now, CreatedBy = "monik", ModifiedBy = "fer" });
+            result.Add(new Company { ID = 4, Name = "Venice Consulting Group Ltd.", CreatedOn = DateTime.Now, ModifiedOn = DateTime.Now, CreatedBy = "monik", ModifiedBy = "someone" });
+
+            return result;
+        }
+
         private class CommentDto {
             public int ID { get; set; }
             public string Comment { get; set; }
