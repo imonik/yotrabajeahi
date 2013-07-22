@@ -26,6 +26,10 @@ namespace Yota.DataAccess{
 			sp.Command.AddParameter("companyID",companyID,DbType.Int32,ParameterDirection.Input);
 			return sp;
 		}
+		public StoredProcedure GetCompanies(){
+			StoredProcedure sp=new StoredProcedure("GetCompanies",this.Provider);
+			return sp;
+		}
 	}
 }
  
