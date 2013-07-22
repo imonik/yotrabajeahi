@@ -67,6 +67,7 @@
     <Build Include="dbo\Tables\SurveryCategory.sql" />
     <Build Include="dbo\Stored Procedures\AddComment.sql" />
     <Build Include="dbo\Stored Procedures\GetComments.sql" />
+    <Build Include="dbo\Stored Procedures\GetCompanies.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="YotaDb.publish.xml" />
