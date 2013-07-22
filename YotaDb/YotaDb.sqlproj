@@ -74,4 +74,7 @@
   <ItemGroup>
     <RefactorLog Include="YotaDb.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.sql" />
+  </ItemGroup>
 </Project>
