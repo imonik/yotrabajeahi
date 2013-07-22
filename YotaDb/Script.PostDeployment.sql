@@ -16,14 +16,14 @@ VALUES ('monik', 'mk.santb@gmail.com', '123')
 INSERT INTO Users (UserName, Email, [Password])
 VALUES ('fcmendoza', 'fcmendoza@gmail.com', '123')
 
-INSERT INTO Companies ( Name )
-VALUES ('Inflection Point Systems')
+INSERT INTO Companies ( Name, CreatedBy, ModifiedBy )
+VALUES ('Inflection Point Systems', 1, 1)
 
-INSERT INTO Companies ( Name )
-VALUES ('Epicor Software')
+INSERT INTO Companies ( Name, CreatedBy, ModifiedBy )
+VALUES ('Epicor Software', 1, 1)
 
-INSERT INTO Companies ( Name )
-VALUES ('Sieena Software')
+INSERT INTO Companies ( Name, CreatedBy, ModifiedBy )
+VALUES ('Sieena Software', 1, 1)
 
-INSERT INTO Companies ( Name )
-VALUES ('Venice Consulting Group Ltd.')
+INSERT INTO Companies ( Name, CreatedBy, ModifiedBy )
+VALUES ('Venice Consulting Group Ltd.', 1, 1)
