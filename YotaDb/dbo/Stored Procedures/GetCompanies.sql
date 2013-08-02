@@ -1,5 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[GetCompanies]
 AS
 BEGIN
-	SELECT Id , Name, CreatedOn FROM Companies 
+	SELECT ID , Name, CreatedOn FROM Companies 
 END

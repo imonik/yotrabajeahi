@@ -4,6 +4,6 @@
 )
 AS
 BEGIN
-	SELECT ID, Comment, ResponseID, UserID, CreatedOn 
+	SELECT ID, [Description], ResponseID, UserID, CreatedOn 
 	FROM Comments WHERE CompanyID = @companyID
 END
